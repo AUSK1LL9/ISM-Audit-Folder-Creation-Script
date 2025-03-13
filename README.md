@@ -3,6 +3,9 @@ PowerShell Script for Automated Document Creation
 
 This PowerShell script automates the creation of a directory structure and Word documents based on data from an Excel file. It utilizes the `PSWriteWord` module to simplify Word document generation.
 
+## **Introduction**
+For organizations handling Australian government information, understanding the relationship between the ACSC Information Security Manual (ISM) and the Protective Security Policy Framework (PSPF) is critical. The ISM is a dynamic resource that provides cybersecurity guidelines and practical advice for protecting information and systems. The PSPF establishes the Australian Government's protective security policy. The ISM is instrumental in enabling PSPF compliance, acting as a detailed implementation guide. While the PSPF specifies what security measures are required, the ISM outlines how to implement them effectively. By following the ISM's recommendations, agencies can demonstrate adherence to the PSPF, enhance their security posture, and ensure the confidentiality, integrity, and availability of government information.
+
 ## Prerequisites
 
 * **PowerShell:** Windows PowerShell or PowerShell Core must be installed.
@@ -90,12 +93,6 @@ The script performs the following actions:
 
 ## Output Directory Structure
 ![image](https://github.com/user-attachments/assets/c9443772-9be3-427e-a29b-08445ef5ecf3)
-
-
-## **Introduction**
-OpenCTI is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and observables. It has been created in order to structure, store, organize and visualize technical and non-technical information about cyber threats.
-
-The structuration of the data is performed using a knowledge schema based on the STIX2 standards. It has been designed as a modern web application including a GraphQL API and an UX oriented frontend. Also, OpenCTI can be integrated with other tools and applications such as MISP, TheHive, MITRE ATT&CK, etc.
 
 ## **Contributing** (Share is caring)
 
