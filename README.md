@@ -92,9 +92,19 @@ The script performs the following actions:
 
 
 ## Output Directory Structure
+1. High Level Folder Structure
 ![image](https://github.com/user-attachments/assets/c9443772-9be3-427e-a29b-08445ef5ecf3)
 
-## **Contributing** (Share is caring)
+2. Inside each Folder structure/section:
+![image](https://github.com/user-attachments/assets/8046be6e-fabd-4cc0-8c25-da7f467493fb)
+
+3. Inside the Section folder structure:
+![image](https://github.com/user-attachments/assets/88bca114-5a55-4b71-bdb8-ba8c5cf08f98)
+
+3. Inside each ISM Docx file:
+![image](https://github.com/user-attachments/assets/8e9b8c67-92ff-4a76-83b0-00ff783814d9)
+
+## **Contributing** (Sharing is caring)
 
 If you'd like to contribute to Project Title, here are some guidelines:
 
