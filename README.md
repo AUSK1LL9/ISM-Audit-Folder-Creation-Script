@@ -30,8 +30,14 @@ The script performs the following actions:
 
 1.  **Prompts for Input:**
     * Prompts the user to select an Excel file using a file selection dialog.
+        ![image](https://github.com/user-attachments/assets/b57fd1de-6711-4ba7-951b-83b38c5689fb)
+
     * Prompts the user to enter the worksheet name from the selected Excel file.
+        ![image](https://github.com/user-attachments/assets/fb25d891-3a14-4c6c-8bfd-6ecd22fa51e4)
+
     * Prompts the user to enter the base directory where folders will be created.
+        ![image](https://github.com/user-attachments/assets/df44e4a2-4261-4d8f-829c-29fd026b1d2c)
+
 
 2.  **Reads Excel Data:**
     * Opens the specified Excel file.
