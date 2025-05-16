@@ -3,6 +3,10 @@ PowerShell Script for Automated Document Creation
 
 This PowerShell script automates the creation of a directory structure and Word documents based on data from an Excel file. It utilizes the `PSWriteWord` module to simplify Word document generation.
 
+## **Update**
+Tested on latest edition of ISM March 2025 uploaded here: RFFR SoA based on ISM March 2025.xlsx
+v1.1 - Set root folder to be 'Guideline' - Updated from root folder 'Section' in v1.0
+
 ## **Introduction**
 For organizations handling Australian government information, understanding the relationship between the ACSC Information Security Manual (ISM) and the Protective Security Policy Framework (PSPF) is critical. The ISM is a dynamic resource that provides cybersecurity guidelines and practical advice for protecting information and systems. The PSPF establishes the Australian Government's protective security policy. The ISM is instrumental in enabling PSPF compliance, acting as a detailed implementation guide. While the PSPF specifies what security measures are required, the ISM outlines how to implement them effectively. By following the ISM's recommendations, agencies can demonstrate adherence to the PSPF, enhance their security posture, and ensure the confidentiality, integrity, and availability of government information.
 
@@ -151,6 +155,8 @@ https://www.dewr.gov.au/right-fit-risk-cyber-security-accreditation/resources/rf
 ## **Changelog**
 
 - **1.0** Initial release
+- **1.1** Updated script with betetr error handling.
+          Set root folder to be 'Guideline' - Updated from root folder 'Section' in v1.0
 
 ## **Contact**
 
