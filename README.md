@@ -42,17 +42,17 @@ The script performs the following actions:
 2.  **Reads Excel Data:**
     * Opens the specified Excel file.
     * Accesses the specified worksheet.
-    * Iterates through rows in the worksheet, extracting data from specific columns (B, D, and E).
+    * Iterates through rows in the worksheet, extracting data from specific columns (A, B, D, and E).
 
 3.  **Creates Directory Structure:**
-    * For each row in the Excel sheet, it creates a directory path based on the extracted data from columns B and D. The directory path is constructed as `$baseDirectory\$columnB\ISM-$columnD`.
+    * For each row in the Excel sheet, it creates a directory path based on the extracted data from columns A and B. The directory path is constructed as `$baseDirectory\$columnA\$columnD`.
     * It creates the directory if it doesn't already exist.
 
 4.  **Generates Word Documents:**
     * For each row, it creates a blank Word document in the created directory. The document filename is `ISM-$columnD.docx`.
     * It uses the `PSWriteWord` module to:
         * Create a new Word document.
-        * Add text from column E as a heading (font size 21, bold).
+        * Add text from column E as a heading (font size 18, bold).
         * Add empty line (font size 12).
         * Add text "Add Evidence *" (font size 12).
         * Save the Word document.
@@ -68,7 +68,7 @@ The script performs the following actions:
 
 ## How to Use
 
-1.  **Save the Script:** Save the PowerShell script as a `.ps1` file (e.g., `CreateDocsFromExcel.ps1`).
+1.  **Save the Script:** Save the PowerShell script as a `.ps1` file (e.g., `ISM-Audit-Folder-Creation-Script-v1.1.ps1`).
 
 2.  **Prepare the Excel File:**
     * Ensure your Excel file has the data organized correctly.
@@ -81,7 +81,7 @@ The script performs the following actions:
 3.  **Run the Script:**
     * Open PowerShell.
     * Navigate to the directory where you saved the script.
-    * Execute the script: `.\CreateDocsFromExcel.ps1`
+    * Execute the script: `.\ISM-Audit-Folder-Creation-Script-v1.1.ps1`
 
 4.  **Follow the Prompts:**
     * The script will first display a file selection dialog. Choose your Excel file.
