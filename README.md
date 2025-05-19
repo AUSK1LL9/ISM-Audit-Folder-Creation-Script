@@ -10,7 +10,8 @@ v1.1 - Set root folder to be 'Guideline' - Updated from root folder 'Section' in
 ## **Introduction**
 For organizations handling Australian government information, understanding the relationship between the ACSC Information Security Manual (ISM) and the Protective Security Policy Framework (PSPF) is critical. The ISM is a dynamic resource that provides cybersecurity guidelines and practical advice for protecting information and systems. The PSPF establishes the Australian Government's protective security policy. The ISM is instrumental in enabling PSPF compliance, acting as a detailed implementation guide. While the PSPF specifies what security measures are required, the ISM outlines how to implement them effectively. By following the ISM's recommendations, agencies can demonstrate adherence to the PSPF, enhance their security posture, and ensure the confidentiality, integrity, and availability of government information.
 
-![image](https://github.com/user-attachments/assets/c53fb7ce-47e9-4821-84c8-f6ff379828cd)
+![image](https://github.com/user-attachments/assets/b62b8ea4-09be-446e-a89f-696f1efaf4f0)
+
 ![image](https://github.com/user-attachments/assets/693cd417-ea48-427d-aa47-1cbedc9ce539)
 
 
