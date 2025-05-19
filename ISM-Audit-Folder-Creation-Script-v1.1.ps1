@@ -65,11 +65,12 @@ try {
         # Extract values from columns A, B, D and E
         $columnA = $worksheet.Cells.Item($row, 1).Value2
         $columnB = $worksheet.Cells.Item($row, 2).Value2
+        $columnC = $worksheet.Cells.Item($row, 3).Value2
         $columnD = $worksheet.Cells.Item($row, 4).Value2
         $columnE = $worksheet.Cells.Item($row, 5).Value2
 
         # Create the directory path based on values from columns B, and D
-        $directoryPath = Join-Path -Path $baseDirectory -ChildPath "$columnA\$columnB"
+        $directoryPath = Join-Path -Path $baseDirectory -ChildPath "$columnA\$columnB\$columnC"
 
         # Create the directory if it doesn't exist
         if (!(Test-Path $directoryPath)) {
